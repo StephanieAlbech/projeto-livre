@@ -60,7 +60,7 @@
 body{
     background-color:var(--cor1);
     font-family: var(--fonte-padrao);
-  
+    
 }
 
 
@@ -102,7 +102,20 @@ header > p{
     
 
 }
+main{
 
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.459);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+
+}
 nav{
     text-align: center;
     background-color: var(--cor4);
@@ -123,20 +136,6 @@ nav > a:hover {
     background-color: var(--cor6);
     color: var(--cor0);
     
-
-}
-main{
-
-    min-width: 300px;
-    max-width: 1000px;
-    margin: auto;
-    margin-bottom: 30px;
-    padding: 20px;
-    background-color: white;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.459);
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-
 
 }
 main h1{
@@ -202,9 +201,83 @@ main a:hover{
     color: var(--cor1);
     
 }
+#bor{
+    margin: auto;
+    margin-bottom: -70px;
+    border-radius: 0%;
+}
+#container h1,h2,h3 {
+    text-align: center;
+    margin-top: 20px;
+    color: #2C0D00;
+    font-size: 2em;}
+    
+#container h2{
+    margin-top: 0px;
+    font-family: var(--fonte-android);
+    font-size: 3em;
+    color: #140403;
+    padding: 10px;
+}
+#bor > p {
+    margin: 215px 0px 20px 15px;
+    padding-bottom: 60px;
+    
+}
+#container {
+    margin: auto;
+    position: relative;
+    height: 400px;
+    min-width: 450px;
+    max-width: 1040px;
+    margin: auto;
+    background-color: white;
+    
+    
+    
+   
+    
+}   
+#container p {
+    margin: 25px 20px 25px 20px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 2em;
+    font-size: 1em;
+    background-color: rgba(0, 0, 0, 0.308);
+    color: #F2D6BC;
+    padding: 20px;
+    margin: auto;
+    width: 400px;
+    height: 400px;
+    margin-top: 40px;
+}
 
-
-
+#conteudo1 {
+    position: absolute;
+    height: 500px;
+    width: 100%;
+    background: black url('https://www.cacaushow.com.br/on/demandware.static/-/Sites-masterCatalog_CacauShow/default/dw531e4165/large/trufalanut_a1.png') center no-repeat fixed;
+    background-size: cover;
+    box-shadow: inset 2px 2px 4px 2px rgba(0, 0, 0, 0.363);
+    
+}
+#conteudo2 {
+    position: absolute;
+    height: 500px;
+    width: 100%;
+    background: black url('https://claudia.abril.com.br/wp-content/uploads/2023/03/Lancamentos-de-Ovos-de-Pascoa-2023.jpg?quality=85&strip=info&w=1280&h=720&crop=1') bottom center no-repeat fixed;
+    background-size: cover;
+    box-shadow: inset 2px 2px 4px 2px rgba(0, 0, 0, 0.363);
+}
+#conteudo3 {
+    position: absolute;
+    height: 500px;
+    width: 100%;
+    background: black url('../imagens/chocolate.png') bottom center no-repeat fixed;
+    background-size: cover;
+    box-shadow: inset 2px 2px 4px 2px rgba(0, 0, 0, 0.363);
+}
 article > h1{
 
     color: var(--cor5);
@@ -235,6 +308,7 @@ div.video {
     padding: 20px;
     padding-bottom: 57%;
     position: relative;
+    box-shadow: inset 2px 2px 4px 2px rgba(0, 0, 0, 0.363);
 }
 
 div.video > iframe {
